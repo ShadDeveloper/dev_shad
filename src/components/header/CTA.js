@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import CV from "../../assets/cv.pdf";
 
 const CTA = () => {
@@ -7,9 +8,9 @@ const CTA = () => {
       <a href={CV} download className="btn">
         Download CV
       </a>
-      <a href="#contact" className="btn btn-primary">
-        Let's Talk
-      </a>
+      <Link to="https://devshad.xyz/blog" className="btn btn-primary">
+        See My Blogs
+      </Link>
     </div>
   );
 };
