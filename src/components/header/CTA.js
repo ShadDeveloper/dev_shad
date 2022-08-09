@@ -8,9 +8,9 @@ const CTA = () => {
       <a href={CV} download className="btn">
         Download CV
       </a>
-      <Link to="https://devshad.xyz/blog" className="btn btn-primary">
+      <a href="https://blog.devshad.xyz" className="btn btn-primary">
         See My Blogs
-      </Link>
+      </a>
     </div>
   );
 };
